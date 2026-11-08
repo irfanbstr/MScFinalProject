@@ -28,22 +28,23 @@ This project presents a low-cost, modular, and autonomous multi-property spatial
 ```
 .
 ├── 1. Exploratory Data Analysis (Jupyter Notebook)/
-│   └── *.ipynb                  # Jupyter notebooks for data analysis, ternary plots, & metrology statistics
+│   └── *.ipynb                             # Jupyter notebooks for data analysis, ternary plots, & metrology statistics
 │
 ├── 2. Reflectance Measurement/
-│   ├── arduino/                 # Arduino C++ sketch for AS7343 multi-spectral telemetry (I2C)
-│   ├── python/                  # Python control scripts & GUI backend for automated optical grid scans
-│   ├── dataset/                 # Raw & calibrated reflectance CSV data across thermal states
-│   └── references/              # Related optical literature & reference data
+│   ├── arduino/                           # Arduino C++ sketch for AS7343 multi-spectral telemetry (I2C)
+│   ├── python/                            # Python control scripts & GUI backend for automated optical grid scans
+│   ├── dataset/                           # Raw & calibrated reflectance CSV data across thermal states
+│   └── references/                        # Related optical literature & reference data
 │
 ├── 3. Resistivity Measurement/
-│   ├── arduino/                 # Arduino sketch for ADS1115 16-bit ADC reading & mode switching
-│   ├── python/                  # Python GUI, G-code path generator, & resistivity calculation algorithms
-│   ├── dataset/                 # Raw 4PP voltage/current measurements & resistivity CSV maps
-│   └── references/              # 4PP geometric correction factors & reference resistivity data
+│   ├── arduino/                           # Arduino sketch for ADS1115 16-bit ADC reading & mode switching
+│   ├── python/                            # Python GUI, G-code path generator, & resistivity calculation algorithms
+│   ├── dataset/                           # Raw 4PP voltage/current measurements & resistivity CSV maps
+│   └── references/                        # 4PP geometric correction factors & reference resistivity data
 │
-├── requirements.txt             # Python dependencies
-└── README.md                    # Project documentation
+├── Irfan Satria_2731349_Final Report.pdf  # Final Submitted Report Document
+├── requirements.txt                       # Python dependencies
+└── README.md                              # Project documentation
 ```
 
 ---
